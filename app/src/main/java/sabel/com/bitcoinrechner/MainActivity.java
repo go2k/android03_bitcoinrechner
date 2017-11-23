@@ -27,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (Double.parseDouble(etEuro.toString()) > 0) {
 
-
+                    Double d = Double.parseDouble(etEuro.toString());
+                    d *= 2;
+                    etBitcoin.setText( d.toString());
                 }
             }
         });
