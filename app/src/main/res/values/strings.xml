@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BitcoinRechner</string>
+    <string name="btnumrechnen">Umrechnen</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_euro"
+        android:hint="Bitte Euro Betrag eingeben"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_bitcoin"
+        android:layout_below="@+id/et_euro"
+        android:hint="Bitcoin Betrag"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_umrechnen"
+        android:layout_below="@+id/et_bitcoin"
+        android:text="@string/btnumrechnen"/>
+
+
+</RelativeLayout>
