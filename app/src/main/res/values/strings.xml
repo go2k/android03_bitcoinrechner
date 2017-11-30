@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">BitcoinRechner</string>
-    <string name="btnumrechnen">Umrechnen</string>
+    <string name="btn_umrechnen">Umrechnen</string>
+    <string name="et_euro" >Betrag in Euro</string>
+    <string name="et_bitcoin">Betrag in Bitcoin</string>
+    <string name="btn_exit">Beenden</string>
 </resources>

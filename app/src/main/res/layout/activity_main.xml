@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:orientation="vertical"
+    android:padding="15dp">
+
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/et_euro"
-        android:hint="Bitte Euro Betrag eingeben"/>
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_euro"
+        android:inputType="numberDecimal"/>
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/et_bitcoin"
-        android:layout_below="@+id/et_euro"
-        android:hint="Bitcoin Betrag"/>
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_bitcoin"
+        android:inputType="numberDecimal"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_umrechnen"
-        android:layout_below="@+id/et_bitcoin"
-        android:text="@string/btnumrechnen"/>
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_umrechnen" />
 
-
-</RelativeLayout>
+    <Button
+        android:id="@+id/btn_beenden"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_exit" />
+</LinearLayout>
