@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     /**
      * Rechnet Euro in Bitcoin um
      *
